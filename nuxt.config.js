@@ -23,7 +23,6 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
-    [{ src: "~src/main.js", mode: "client" }],
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -33,8 +32,6 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/tailwindcss
     '@nuxt/postcss8',
-    '@nuxtjs/fontawesome',
-    'nuxt-icon',
   ],
   fontawesome: {
     icons: {
@@ -61,5 +58,4 @@ export default {
       },
     },
   },
-  target: 'server'
 }
