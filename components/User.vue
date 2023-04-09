@@ -13,7 +13,7 @@
 
     <div class="flex justify-between mt-2">
 
-      <nuxt-link :to="`users/preview/${userData.userId}`"
+      <nuxt-link :to="`/users/preview/${userData.userId}`"
         class="flex text-sm bg-blue-400 px-[6px] py-2 justify-center items-center cursor-pointer rounded-md hover:text-white"
       >
         <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6">
@@ -24,7 +24,7 @@
       </nuxt-link>
 
       <nuxt-link 
-        :to="`users/edit/${userData.userId}`"
+        :to="`/users/edit/${userData.userId}`"
         class="flex text-sm bg-yellow-400 px-[6px] py-2 justify-center items-center cursor-pointer rounded-md hover:text-white"
       >
         <svg class="w-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-6 h-6">
